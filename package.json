@@ -22,8 +22,8 @@
   },
   "bugs": "https://github.com/zacanger/is-module-installed/issues",
   "keywords": [
-    "",
-    "is-module-installed"
+    "installed",
+    "module"
   ],
   "dependencies": {},
   "devDependencies": {
