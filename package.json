@@ -27,6 +27,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "sortpack": "1.1.6",
     "standard": "12.0.1",
     "tape": "4.10.1"
   },
