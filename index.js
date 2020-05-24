@@ -2,7 +2,7 @@ module.exports = (pkgName) => {
   try {
     require.resolve(pkgName)
     return true
-  } catch (_) {
+  } catch {
     return false
   }
 }
