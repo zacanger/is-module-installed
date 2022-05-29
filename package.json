@@ -16,7 +16,7 @@
   "scripts": {
     "preversion": "npm t",
     "test": "npm run test:lint && npm run test:tape",
-    "test:lint": "eslint -c .eslintrc.json *.js",
+    "test:lint": "standard",
     "test:tape": "node index.test.js"
   },
   "homepage": "https://github.com/zacanger/is-module-installed#readme",
@@ -29,30 +29,12 @@
     "installed",
     "module"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "7.17.0",
-    "eslint-plugin-zacanger": "2.2.3",
-    "husky": "4.3.6",
-    "lint-staged": "10.5.3",
-    "prettier": "2.2.1",
-    "sortpack": "2.1.11",
-    "tape": "5.1.0"
+    "sortpack": "2.2.2",
+    "standard": "17.0.0",
+    "tape": "5.5.3"
   },
   "engines": {
     "node": ">=10.0.0"
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier --write"
-    ],
-    "package.json": [
-      "sortpack"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }

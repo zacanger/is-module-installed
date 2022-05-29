@@ -1,4 +1,3 @@
-// eslint-disable-next-line node/no-unpublished-require
 const tape = require('tape')
 const isInstalled = require('.')
 
