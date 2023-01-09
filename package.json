@@ -1,7 +1,7 @@
 {
   "name": "is-module-installed",
   "description": "Check if a module is installed in your project",
-  "version": "2.0.18",
+  "version": "2.0.19",
   "author": {
     "email": "zac@zacanger.com",
     "name": "Zac Anger",
