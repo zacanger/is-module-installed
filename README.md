@@ -2,6 +2,8 @@
 
 Check if a module is installed in your project.
 
+[Donate](https://ko-fi.com/zacanger)
+
 --------
 
 ## Installation
